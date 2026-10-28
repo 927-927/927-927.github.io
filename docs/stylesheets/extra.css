@@ -108,3 +108,28 @@
   border-radius: 0.3rem;
   background: #fff;
 }
+
+/* ---------------------------------------------------------------
+   Step photo: a photo floated beside one step of a numbered list
+   --------------------------------------------------------------- */
+
+.md-typeset img.step-photo {
+  float: right;
+  width: 40%;
+  max-width: 16rem;
+  margin: 0 0 1rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
+/* Start the next step below the photo */
+.md-typeset li:has(img.step-photo) + li {
+  clear: both;
+}
+
+/* Stay beside the text on narrow screens, so the step number stays on top */
+@media screen and (max-width: 44.9375em) {
+  .md-typeset img.step-photo {
+    width: 45%;
+    margin: 0.2rem 0 0.5rem 1rem;
+  }
+}

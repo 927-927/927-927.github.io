@@ -5,6 +5,15 @@ and how to put a terminal on a wire so it stays there for a whole season.
 
 <div class="grid cards" markdown>
 
+-   :material-lightning-bolt:{ .lg .middle } __Power wiring__
+
+    ---
+
+    The big picture: red and black wires, wire gauge, and how power gets from
+    the battery through the PDH/PDP to every device.
+
+    [:octicons-arrow-right-24: Power wiring](power-wiring.md)
+
 -   :material-tools:{ .lg .middle } __Tools__
 
     ---
