@@ -79,18 +79,29 @@ and [radio power](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-1/in
 1.  **Add a breaker or fuse** to the channel: a 40 A breaker for a motor
     controller, a 10 A fuse for the roboRIO or radio.
 2.  ![Wire with a crimped ferrule](../assets/images/electronics/ferrule-crimped.png){ .step-photo }
-    **Crimp ferrules onto a red and black pair.** Pick the gauge from the
-    table above, then crimp a [wire ferrule](wire-terminals.md#wire-ferrule)
-    onto the end of each wire that goes into the PDH/PDP, using a
-    [ferrule crimper](tools.md#ferrule-crimper). Without one, the strands
-    spread out as the terminal clamps down, and a stray one can short to the
-    next terminal. A finished ferrule looks like the photo:
+    **Crimp ferrules onto the wires that go into the PDH/PDP.** Usually these
+    are the device's own power wires, such as the ones on a motor controller
+    or a motor with a built-in controller. If they're too short to reach the
+    PDH/PDP, cut a red and black extension pair instead (gauge from the table
+    above) and crimp onto one end of it. Use a
+    [ferrule crimper](tools.md#ferrule-crimper). Without a
+    [ferrule](wire-terminals.md#wire-ferrule), the strands spread out as the
+    terminal clamps down, and a stray one can short to the next terminal. A
+    finished ferrule looks like the photo:
 
     - The plastic collar touches the wire's insulation.
     - The metal tube covers every strand, with none poking out.
     - It doesn't pull off when you tug it.
 
 3.  **Push the ferrules into the channel's terminals**, red to + and black
-    to −, then run the pair to a [connector](connectors.md).
-4.  **Join the connector to the device's power cables**, such as the power
-    input of a motor controller.
+    to −.
+4.  ![Power wires extended with yellow butt splices](../assets/images/electronics/butt-splice-extension.png){ .step-photo .step-photo--tall }
+    **If you used an extension pair, join it to the device's power wires**
+    with a [connector](connectors.md): red to red, black to black. If the
+    device's own wires reached the PDH/PDP, you're done, and no connector is
+    needed.
+
+    The photo shows an extension joined with
+    [insulated butt splices](connectors.md#insulated-butt-splice-connector).
+    The wires are zip-tied on both sides of the splices, so a tug on the wire
+    doesn't pull on the crimp.

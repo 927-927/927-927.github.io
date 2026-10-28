@@ -121,8 +121,20 @@
   border-radius: 0.5rem;
 }
 
+/* Portrait photos get narrower so they don't tower over the step */
+.md-typeset img.step-photo--tall {
+  max-width: 10rem;
+}
+
 /* Start the next step below the photo */
 .md-typeset li:has(img.step-photo) + li {
+  clear: both;
+}
+
+/* Keep a photo on the last step inside the list */
+.md-typeset ol:has(img.step-photo)::after {
+  content: "";
+  display: block;
   clear: both;
 }
 
