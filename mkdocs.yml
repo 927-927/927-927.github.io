@@ -57,6 +57,7 @@ nav:
   - Electronics:
       - electronics/index.md
       - Power wiring: electronics/power-wiring.md
+      - Signal wiring: electronics/signal-wiring.md
       - Tools: electronics/tools.md
       - Connectors: electronics/connectors.md
       - Wire terminals: electronics/wire-terminals.md

@@ -14,6 +14,15 @@ and how to put a terminal on a wire so it stays there for a whole season.
 
     [:octicons-arrow-right-24: Power wiring](power-wiring.md)
 
+-   :material-sine-wave:{ .lg .middle } __Signal wiring__
+
+    ---
+
+    How devices talk to the roboRIO: the yellow and green CAN bus, how it
+    works, and how to wire it from start to end.
+
+    [:octicons-arrow-right-24: Signal wiring](signal-wiring.md)
+
 -   :material-tools:{ .lg .middle } __Tools__
 
     ---
@@ -27,7 +36,8 @@ and how to put a terminal on a wire so it stays there for a whole season.
 
     ---
 
-    Joining two or more wires: Wago lever connectors and insulated butt splices.
+    Joining two or more wires: Wago lever connectors, insulated butt splices
+    and copper crimp tubes.
 
     [:octicons-arrow-right-24: Connectors](connectors.md)
 

@@ -73,4 +73,34 @@ The color code is the same internationally.
 </div>
 </div>
 
+<div class="item" markdown>
+<div class="item__photo" markdown>
+![Copper crimp tubes](../assets/images/electronics/copper-crimp-tube.jpg)
+</div>
+<div class="item__text" markdown>
+
+## Copper crimp tube
+
+冷压铜管, non-insulated butt splice
+{ .item__aka }
+
+A bare metal tube that joins two wires end to end. Push a stripped wire into
+each end and crimp each half. It has no insulation of its own, so it always
+gets a **heat shrink tube** over it. It's slimmer than an insulated butt
+splice, so the joint lies flat along the wire.
+
+**Used for:** joining [CAN wires](signal-wiring.md#how-to-wire) inside one
+subsystem, where the joint never needs to come apart.
+
+**Crimp with:** a crimper for non-insulated terminals, not the
+[color-dot crimper](tools.md#crimper), which is shaped for plastic sleeves.
+
+- Slide the heat shrink onto one wire **before** crimping. It can't go on
+  afterwards.
+- Tug-test both wires, then shrink the tube over the joint so it covers the
+  bare metal and a little insulation on each side.
+
+</div>
+</div>
+
 </div>
