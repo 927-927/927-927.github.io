@@ -3,6 +3,10 @@ site_url: https://927-927.github.io/
 repo_url: https://github.com/927-927/927-927.github.io
 repo_name: 927-927/927-927.github.io
 
+# Working notes, not pages
+exclude_docs: |
+  Team_analysis/
+
 theme:
   name: material
   custom_dir: overrides
@@ -67,9 +71,11 @@ nav:
       - Java basics: software/java-basics.md
       - Command-based skeleton: software/command-based-skeleton.md
       - Time-based to command-based: software/time-based-to-command-based.md
-      # The teams are headings on one page, so link to them by URL
+      - Complex command-based: software/complex-command-based.md
+      # Teams without their own page yet are headings on the index page,
+      # so link to them by URL
       - Command-based styles:
           - software/command-based-styles/index.md
-          - Team 2910: /software/command-based-styles/#team-2910
+          - Team 2910: software/command-based-styles/team-2910.md
           - Team 1678: /software/command-based-styles/#team-1678
           - Team 8214: /software/command-based-styles/#team-8214

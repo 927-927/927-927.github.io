@@ -205,6 +205,11 @@
   grid-template-columns: 10rem minmax(0, 1fr);
 }
 
+/* For projects with long file names */
+.md-typeset .vscode--wide .vscode__body {
+  grid-template-columns: 12.5rem minmax(0, 1fr);
+}
+
 /* Explorer */
 .md-typeset .vscode__sidebar {
   padding-bottom: 0.5rem;
