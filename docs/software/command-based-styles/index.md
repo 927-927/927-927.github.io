@@ -45,8 +45,13 @@ Photo: Team 1678, from their [README](https://github.com/frc1678/C2026-Public)
 Citrus Circuits · Limestone, their 2026 robot
 { .item__aka }
 
-Coming soon. Their code is on GitHub at
+Usual command-based code, built up to a whole robot. Each subsystem is one
+motor or motor group that takes a setpoint, on bases with one shared
+parent, and a Superstructure full of commands combines them. Their code is
+on GitHub at
 [frc1678/C2026-Public](https://github.com/frc1678/C2026-Public).
+
+[:octicons-arrow-right-24: Team 1678's code](team-1678.md)
 
 </div>
 </div>
