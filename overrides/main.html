@@ -10,3 +10,16 @@
     } catch (e) {}
   </script>
 {% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  {% if config.theme.language == "zh" %}
+    <!-- Nav entries written as site paths in mkdocs.yml (like Team 8214's)
+         point at the English site, so keep them on the Chinese one -->
+    <script>
+      document.querySelectorAll('.md-nav a[href^="/"]:not([href^="/zh/"])').forEach(function (a) {
+        a.setAttribute("href", "/zh" + a.getAttribute("href"))
+      })
+    </script>
+  {% endif %}
+{% endblock %}
