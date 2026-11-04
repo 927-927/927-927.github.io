@@ -36,6 +36,7 @@ extra_css:
 extra_javascript:
   - javascripts/sidebar-toggle.js
   - javascripts/code-window.js
+  - javascripts/can-sim.js
 
 markdown_extensions:
   - admonition
@@ -59,6 +60,9 @@ nav:
   - Home: index.md
   - Hardware:
       - hardware/index.md
+      - CAD: hardware/cad.md
+      - Common devices: hardware/devices.md
+      - Components: hardware/components.md
   - Electronics:
       - electronics/index.md
       - Power wiring: electronics/power-wiring.md
@@ -66,6 +70,7 @@ nav:
       - Tools: electronics/tools.md
       - Connectors: electronics/connectors.md
       - Wire terminals: electronics/wire-terminals.md
+      - Troubleshooting: electronics/troubleshooting.md
   - Software:
       - software/index.md
       - Java basics: software/java-basics.md
